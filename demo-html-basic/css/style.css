@@ -1,0 +1,89 @@
+.container { padding: 0px 100px; display: -webkit-box; width: 100%; }
+ul { list-style: none; }
+.header { background-color: rgb(255, 255, 255); position: fixed; top: 0px; left: 0px; right: 0px; color: black; border-bottom: 1px solid rgb(204, 204, 204); box-shadow: rgb(204, 204, 204) 5px 2px 5px; }
+.header img {width: 100px;margin-top: 5px;margin-bottom: 5px;}
+.header .logo, .nav .menu { width: 20%; }
+.search { width: 40%; text-align: left; margin-top: auto; margin-bottom: auto; position: relative; border: 1px solid pink; }
+.search input {display: inline-block;padding: 7px 20px;box-sizing: border-box;width: 90%;left: 0px;font-size: 15px;color: rgb(59, 58, 58);border: none;outline: none;}
+.search button {position: absolute;padding: 7px 17px;background-color: pink;right: -1px;color: rgb(255, 255, 255);font-size: 15px;border: none;outline: none;}
+.search button:active { outline: none; }
+.account, .cart {width: 20%;margin-top: auto;margin-bottom: auto;display: flex;margin-left: 18px;}
+.account i, .cart i { margin-top: auto; margin-bottom: auto; padding-left: 20px; padding-right: 10px; }
+.acc-user, .cart-user { color: pink; font-size: 35px !important; }
+.account__title { width: 70%; }
+.account__title h3, .nav__head h3 { margin-top: 0px; font-size: revert; margin-bottom: 0px; font-family: sans-serif; }
+.account__title a { text-decoration: none; color: rgb(110, 109, 109); padding-right: 7px; font-size: unset; font-family: sans-serif; }
+.account__title a:hover { color: pink; }
+.nav__head { width: 100%; border: 1px solid rgb(204, 204, 204); content: "  "; background-color: rgb(212, 48, 76); }
+.menu__bars { margin-left: 5px; margin-right: 5px; }
+.nav__head .menu .menu__bars-item { width: 35px; height: 5px; margin: 6px 0px; background-color: rgb(255, 255, 255); }
+.menu { display: flex; }
+.menu:hover { background-color: rgb(141, 7, 29); }
+.nav__head h3, .menu a { margin-top: auto; margin-bottom: auto; color: white; }
+.nav__head { display: flex; }
+.item-home a { text-decoration: none; color: rgb(110, 109, 109); font-size: unset; font-family: sans-serif; margin-left: auto; margin-right: auto; }
+.item-home { height: 100%; text-align: center; background-color: white; padding-left: 5px; padding-right: 5px; width: 15%; display: flex; align-items: center; justify-content: center; }
+.item { padding-left: 5px; padding-right: 5px; width: 10%; color: rgb(255, 255, 255); display: flex; align-items: center; justify-content: center; }
+.item a { text-decoration: none; color: rgb(255, 255, 255); font-size: unset; font-family: sans-serif; margin-left: auto; margin-right: auto; }
+.item:hover { background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); transition: all 1.5s ease 0s; }
+.item:hover .item a { color: rgb(110, 109, 109); transition: all 1s ; }
+.main { width: 100%; background-color: rgb(250, 249, 249); margin-bottom: 50px; }
+.main__bars { width: 20%; height: auto; background-color: white; border-radius: 10px; }
+.main__bars li, .main-product__list-menu li { border-bottom: 1px solid rgb(204, 204, 204); padding-bottom: 9px; padding-top: 9px; }
+.main__bars li:hover, .main-product__list-menu li:hover { padding-left: 10px; transition: all 0.7s ease 0s; background-color: pink; }
+#dog { display: none; float: left; }
+#cat { display: none; float: left; }
+.hotel:hover #hotel { display: none; }
+.hotel:hover #dog { display: block; }
+.hotel:hover #cat { display: block; }
+.main__slide { width: 80%; text-align: center; }
+.main__slide .main__slide-image img { width: 100%; }
+.prev, .next { cursor: pointer; top: 40%; width: auto; padding: 16px; margin-top: -50px; color: black; font-weight: bold; font-size: 20px; border-radius: 0px 3px 3px 0px; user-select: none; }
+.products-list { display: none;}
+.products-list ul { padding-left: 0px; }
+.products-list li { margin-left: 10px; }
+.products:hover .products-list { display: block; background-color: white; transition: all 2s;}
+.main__bars .products:hover { padding-left: 0px; }
+.banner { display: flex; margin-top: 25px; margin-bottom: 25px; width: 100%; text-align: center; }
+.banner .banner__item { width: 35%; }
+.banner__item img { width: 95%; border: 1px solid rgb(221, 221, 221); border-radius: 4px; padding: 5px; }
+.banner__item img:hover { box-shadow: rgba(0, 140, 186, 0.5) 0px 0px 2px 1px; }
+.main-products { text-align: center; display: flex; }
+.main-products #desc, #price { text-decoration: none; color: black; font-family: inherit; font-weight: 400; }
+#desc:hover { color: pink; }
+#price { font-weight: 700; }
+.button { border: none; padding: 2px 26px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; background-color: rgb(235, 92, 92); }
+.main-product__list { width: 20%; }
+.main-product__list-dog { background-color: pink; }
+.main-product__list-dog span { padding-left: 34px; padding-right: 34px; margin-bottom: 8px; border-right: 1px solid black; }
+.main-product__list-menu { transition: all 0.75s ease 0s; background-color: white; }
+.main-product__list-menu ul { list-style: none; padding: 0px; }
+.footer { background-color: pink; }
+.footer .contact { padding-top: 50px; width: 100%; padding-bottom: 30px; }
+.contact { display: flex; }
+.contact span { font-size: 15px; font-weight: bold; text-transform: uppercase; color: black; }
+.contact a { text-decoration: none; color: black; }
+.about-us { font-size: 16px; margin-right: 50px; }
+.social-network { padding-top: 5px; display: flex; text-align: center; align-items: center; justify-content: center; }
+.contact a img { margin-left: 10px; }
+.login-form{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.3;
+    left: 0;
+    width: 100%;
+    display: none;
+    background-color: purple;
+    justify-content: center;
+    filter: opacity(0.5);
+    text-align: center;
+}
+#login:active .login-form{
+    display: block;
+}
+.login-form:hover{
+    display: block;
+}

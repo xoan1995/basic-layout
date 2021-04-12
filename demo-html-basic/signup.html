@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        h1{
+            font-size: 35px;
+            margin-top: 0;
+            font-weight: 700;
+        }
+        legend{
+            padding: 5px 10px;
+        }
+        input[type=text], input[type=email], input[type=password],select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit], input[type=reset] {
+            width: 100%;
+            background-color: rgb(17, 17, 49);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+                background-color: red;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            }
+            label{
+                float: left;
+        }
+        .google{
+            padding-bottom: 50px;
+            padding-top: 11px;
+            background-color: rgb(129, 6, 6);
+            margin-bottom: 12px;
+        }
+        .google span, .facebook span{
+            padding-top: 9px;
+            float: left;
+            padding-left: 51px;
+            color: #f2f2f2;
+        }
+        .facebook{
+            padding-bottom: 50px;
+            padding-top: 4px;
+            background-color: rgb(42, 6, 100);
+            margin-bottom: 12px;
+        }
+        .facebook span{
+            padding-left: 43px;
+        }
+        input[type=reset]:hover{
+            background-color:rgb(129, 6, 6);
+        }
+    </style>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <div style="width:400px; margin: auto; padding: 20px;
+                background-color: pink;">
+                <fieldset>
+                    <legend>
+                        <h1>Đăng ký</h1></legend>                   
+                            <div class="google">
+                                <img style="float:left"
+                                src="https://img.icons8.com/officel/40/000000/google-logo.png"
+                                />
+                                <span>Đăng nhập với Google</span>
+                            </div>
+                            <div class="facebook">
+                                <img style="float: left;"
+                                src="https://img.icons8.com/color/48/000000/facebook-circled--v2.png"
+                                />
+                                <span>Đăng nhập với Facebook</span>
+                            </div>
+                    
+                    <form action="/action_page.php">
+                        <!--@csrf-->
+                        <input type="text" id="fname" name="firstname"
+                            placeholder="Họ">
+
+                        <input type="text" id="lname" name="lastname"
+                            placeholder="Tên">
+
+                        <input type="email" id="email" name="email"
+                            placeholder="Email">
+
+                        <input type="password" id="password" name="password"
+                            placeholder="Mật khẩu đăng ký">
+
+                        <input type="reset" value="Đăng ký">
+                    </form>
+                </fieldset>
+
+            </div>
+
+        </div>
+    </body>
+</html>

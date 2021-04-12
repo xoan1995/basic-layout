@@ -1,0 +1,123 @@
+.header {
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 12%), 0px 4px 6px rgb(0 0 0 / 6%);
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+.links a:hover {
+  color: blue;
+}
+.main {
+  border-bottom: inset;
+  position: relative;
+}
+.main-content {
+  position: relative;
+}
+
+.main-content-tilte {
+  position: inherit;
+  border-right-style: ridge;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.navigation {
+  padding: 13px;
+  display: block;
+  clear: both;
+  background: none;
+  font-size: 14px;
+  color: #fff;
+  z-index: 100;
+}
+.header_logo {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+}
+.navigation i {
+  color: rgba(0, 0, 0, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  position: unset;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 60px;
+  cursor: default;
+  text-decoration: dotted;
+}
+.drop-content {
+  transform: scale(1.1);
+  transition: all .3s;
+  background-color: black;
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 53px;
+}
+.navigation i:hover .drop-content {
+  display: block;
+}
+.navigation i:hover .content {
+  display: block;
+}
+.main-content {
+  margin-top: 15px;
+  font-size: 2rem;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+.main-content_document p{
+    font-size: 1.6rem !important;
+}
+.img-box{
+  height: 300px;
+  text-align: center;
+  overflow: hidden; position: relative;
+}
+.img-box img{
+  height: 100%;
+  transform: scale(1.1);
+  transition: all .3s;
+}
+.main-content{
+  text-align: center;
+}
+.main-content .desc{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 3px;
+  line-height: 35px;
+}
+.main-content .title{
+  margin-top: 16px;
+  width: auto;
+  opacity: 1;
+  text-align: left;
+  font-size: unset;
+  color: black;
+  text-decoration: none;
+}
+.hot-products-title{
+  text-align: center;
+  padding-bottom:45px;
+}
+.hot-products-title a{
+  text-decoration: none;
+  color:rgb(51,51,51);
+}
+.main-content .detail{
+  margin-top: 35px;
+}
+.main-content .products{
+  padding-top:90px;
+}
